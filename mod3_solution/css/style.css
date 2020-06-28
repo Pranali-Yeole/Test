@@ -1,0 +1,90 @@
+.navbar
+{
+	padding: 0;
+}
+.navbar-brand h1 
+{
+	color:black;
+	margin-left: 25px;
+}
+.navbar>.container
+{
+	max-width: 100%;
+	background-color: gray;
+}
+}
+.navbar-brand a:hover
+{
+	text-decoration: none;
+}
+
+h1,h5
+{
+	text-align: center;
+}
+
+.navbar-toggle {
+position: absolute;
+    right: 20px;
+    top: 20px;
+    box-shadow: none;
+}
+
+.navbar-toggle div
+{
+	width: 12px;
+    height: 2px;
+    margin: 3px 0;
+}
+
+.navbar-toggle.collapsed  div
+{
+    background-color: black;
+}
+
+ .navbar-default .navbar-toggle.collapsed {
+  border-color: black;
+   background-color:gray;
+}
+
+.navbar-toggle div
+{
+	background-color: white;
+}
+ 
+.navbar-default .navbar-toggle{
+     border-color:white ;
+      background-color:gray;
+}
+
+.navbar-collapse
+{
+	background: white;
+    text-align: center;
+    width: 100%;
+}
+.navbar-collapse a,a:hover
+{
+	color:black;
+	text-decoration: none;
+}
+.navbar-collapse ul
+{
+	border: 1px solid black;
+}
+.navbar-collapse li:nth-child(1),li:nth-child(2)
+{
+	border-bottom: 1px solid black;
+}
+.col-md-12, .col-sm-12 ,.col-xs-12{
+  border: 2px solid black;
+  margin: 15px auto;
+}
+
+@media(max-width:600px)
+{
+	.col-xs-12
+	{
+		margin: 20px 20px;
+	}
+}
